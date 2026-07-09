@@ -112,7 +112,7 @@ const jobs = [
   return (
       <div className="parent">
       {jobs.map(function(ele){
-        return <Card company= {ele.company} post ={ele.datePosted} posting= {ele.post} pay = {ele.pay} loca = {ele.location} logo= {ele.brandLogo} />
+        return <Card company= {ele.company} post ={ele.datePosted} posting= {ele.post} pay = {ele.pay} loca = {ele.location} logo= {ele.brandLogo} t1= {ele.tag1} t2= {ele.tag2} />
       })}
       </div>
   );

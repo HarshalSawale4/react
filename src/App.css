@@ -30,6 +30,7 @@ body{
   width: 30px;
   border: 2px solid rgb(150, 149, 149);
   border-radius: 50px;
+  object-fit: contain;
 }
 .top p{
   display: flex;

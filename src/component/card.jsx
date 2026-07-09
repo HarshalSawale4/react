@@ -14,8 +14,8 @@ const Card = (props) => {
       </div>
       <h1 id='des'>{props.posting}</h1>
       <div className="but">
-        <p>Part time</p>
-        <p>Senior Level</p>
+        <p>{props.t1}</p>
+        <p>{props.t2}</p>
       </div>
     </div>
     <div className="bottom">
